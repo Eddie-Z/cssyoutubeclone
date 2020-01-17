@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+.container {
+  display: grid;
+  grid-template-rows: 10rem repeat(5, 40rem);
+  grid-template-columns: repeat(5, 40rem); }
+
+.sidebar {
+  background-color: #6D5D4B;
+  grid-column: 1/1;
+  grid-row: 2/-1; }
+
+.header {
+  background-color: #54483A;
+  grid-column: 1/-1;
+  grid-row: 1/1; }
+
+.videos {
+  background-color: #101d2c;
+  grid-column: 2/-1;
+  grid-row: 2/-1; }
