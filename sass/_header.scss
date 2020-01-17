@@ -1,5 +1,23 @@
 .header{
-    background-color: $color-grey-dark-1;
     grid-column: 1/-1;
     grid-row: 1/1;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    &__logo--1{
+        width:50%;
+        height:100%;
+      
+    }
+    &__logo--2{
+        width:100%;
+        height:100%;
+        align-self:center;
+    }
+    &__logo--3{
+        width:50%;
+        height:100%;
+        justify-self: end;
+    }
+    
+
 }

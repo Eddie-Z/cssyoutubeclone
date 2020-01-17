@@ -20,9 +20,21 @@ html {
   grid-row: 2/-1; }
 
 .header {
-  background-color: #54483A;
   grid-column: 1/-1;
-  grid-row: 1/1; }
+  grid-row: 1/1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
+  .header__logo--1 {
+    width: 50%;
+    height: 100%; }
+  .header__logo--2 {
+    width: 100%;
+    height: 100%;
+    align-self: center; }
+  .header__logo--3 {
+    width: 50%;
+    height: 100%;
+    justify-self: end; }
 
 .videos {
   background-color: #101d2c;
