@@ -28,7 +28,7 @@ html{
 .container{
     display:grid;
     grid-template-rows: 10rem repeat(5,40rem);
-    grid-template-columns: repeat(5,40rem);
+    grid-template-columns: 30rem repeat(4,50rem);
 
     
 }
